@@ -1,9 +1,9 @@
 </main>
 <?php get_sidebar(); ?>
 </div>
-<footer id="footer" role="contentinfo">
+<footer id="footer" role="contentinfo" class="bg-dark text-white">
 <div id="copyright">
-&copy; <?php echo esc_html( date_i18n( __( 'Y', 'blankslate' ) ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
+&copy; <?php echo esc_html( date_i18n( __( 'Y', 'blankstrap' ) ) ); ?> <?php echo esc_html( get_bloginfo( 'name' ) ); ?>
 </div>
 </footer>
 </div>
