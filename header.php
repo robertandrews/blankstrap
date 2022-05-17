@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class('bg-light'); ?>>
 <?php wp_body_open(); ?>
 <div id="wrapper" class="hfeed">
-<header id="header" role="banner">
+<header id="header" role="banner" class="bg-white border-bottom">
 <div id="branding">
 <div id="site-title" itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
 <?php
@@ -24,5 +24,5 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 <div id="search"><?php get_search_form(); ?></div>
 </nav>
 </header>
-<div id="container">
+<div id="container" class="row p-3">
 <main id="content" role="main">
