@@ -24,5 +24,5 @@ if ( is_front_page() || is_home() || is_front_page() && is_home() ) { echo '</h1
 <div id="search"><?php get_search_form(); ?></div>
 </nav>
 </header>
-<div id="container" class="row p-3">
+<div id="container" class="row m-0 p-0 mx-0 py-md-3 px-md-2">
 <main id="content" role="main">
